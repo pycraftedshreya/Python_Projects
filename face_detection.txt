@@ -1,7 +1,0 @@
-Path for face_detection:
-    -> After installing OpenCV from the terminal, you will find a file.
-    Copy and paste it into:
-        -> c:\users\shrey\myprojects\.venv\lib\site-packages
-            -> Then click on the cv2 folder:
-                -> Go to the data folder:
-                    -> Copy the path of haarcascade_frontalface_default.xml and paste it where needed. 
