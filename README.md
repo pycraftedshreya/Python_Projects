@@ -46,7 +46,7 @@ Projects include utilities, games, and applications built using **core Python, l
 ## 🚀 How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/python-projects.git
+   git clone https://github.com/pycraftedshreya/python-projects.git
    cd python-projects
 
 2. Install required libraries
