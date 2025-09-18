@@ -1,0 +1,7 @@
+path of face_detection from :
+    -> terminal ma je opencv kari ne install kariyu tu aavu aavse aene file 
+    make jai ne paste karvanu :
+        ->c:\users\shrey\myprojects\.venv\lib\site-packages
+            -> pachi cv2 ma click karvanu : 
+                ->data ma jai ne :
+                    ->haarcascade_frontalface_default.xml aanu path copy kari ne paste karvanu 

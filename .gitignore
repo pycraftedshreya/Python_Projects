@@ -1,0 +1,5 @@
+# virtual environment
+.virtualenv/
+
+# text files
+face_detection.txt/
