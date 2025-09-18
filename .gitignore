@@ -2,4 +2,4 @@
 .virtualenv/
 
 # text files
-face_detection.txt/
+*.txt
