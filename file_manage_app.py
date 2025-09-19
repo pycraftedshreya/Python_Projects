@@ -8,13 +8,17 @@ path = input("Enter your path (remove \"\" quotes): ")
 files = os.listdir(path)
 
 for i in files:
-    filename , extension  = os.path.splitext(i)
-    extension_1 = extension[1:]
-    folder_path = path+"\\"+extension_1
-    if os.path.exists(folder_path):    
-        # move the file to the folder
-        shutil.move(path+"\\"+i, path+"\\"+extension_1+"\\"+i)
-    else:
+    file_path = os.path.join(path,i)
+    
+    if os.path.isfile(file_path):
+      filename , extension  = os.path.splitext(i)
+      extension_1 = extension[1:] if extension else "Others"
+    
+    folder_path = os.path.join(path, extension_1)
+    
+    if  not os.path.exists(folder_path):    
         # create the folder
         os.makedirs(folder_path)
-        shutil.move(path+"\\"+i, path+"\\"+extension_1+"\\"+i)
+
+    # move the file to the folder
+    shutil.move(file_path, os.path.join(folder_path,i))
