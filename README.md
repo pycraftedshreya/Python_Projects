@@ -21,11 +21,7 @@ Projects include utilities, games, and applications built using **core Python, l
 
 ### 🔹 Hangman Game
 - Classic word-guessing game implemented in Python.  
-- Uses **words.txt** file to generate random words for the game.  
-
-### 🔹 Snake Game
-- Retro Snake game built using **Pygame** library.  
-- Focuses on logic, event handling, and game loop implementation.  
+- Uses **words.txt** file to generate random words for the game.    
 
 ### 🔹 Screen Recorder
 - Records the screen and saves it as a video file.  
