@@ -1,0 +1,9 @@
+opencv-python
+os 
+shutil 
+random
+pyautogui
+ctypes
+time
+numpy
+tkinter
